@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">WordsFinder</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="title_word_list">Words</string>
+    <string name="title_word_detail">Word Detail</string>
 </resources>

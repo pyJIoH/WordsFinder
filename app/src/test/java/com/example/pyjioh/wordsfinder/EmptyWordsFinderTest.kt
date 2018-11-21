@@ -12,7 +12,7 @@ class EmptyWordsFinderTest {
 
     @Test
     fun initializationTest() {
-        val letters = Array(0, {i -> charArrayOf()})
+        val letters = Array(0) {charArrayOf()}
         val foundWords = EmptyWordsFinder().find(letters)
         assertEquals(0, foundWords.size)
     }
